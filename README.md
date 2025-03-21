@@ -18,8 +18,8 @@ The following information outlines the specifications used for this project:
 
 | Name      | Details                   |
 |-----------|---------------------------|
-| Platform  | GPU                       |
-| Version   | 2.1.40+xpu                |
+| Platform  | GAUDI                     |
+| Version   | 1.18.0-ee698fb            |
 | OS        | Linux                     |
 | Package   | pip                       |
 
