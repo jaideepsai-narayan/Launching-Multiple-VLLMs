@@ -1,11 +1,17 @@
 # Launching-Multiple-VLLMs
-- **Description:** This usecase enables an interactive chat experience with video input. Using advanced multimodal models like [Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA), it allows users to ask questions or interact with the content of a video.
-- It aims to integrate multimodal learning, processing both video and language inputs, to perform tasks like video captioning, question answering, and more. The model builds on LLaMA architecture and adapts it for video-specific challenges.
+- **Description:** Our interactive graphical user interface (GUI) simplifies the process of deploying and interacting with Virtual Large Language Models (VLLMs). This intuitive platform provides an easy way to set up, configure, and launch VLLMs, enabling users to communicate directly with the models in a seamless chat experience.
+  
+Key Features:
+- Effortless Deployment: Deploy a VLLM in just a few clicks. No need for complex configurations or technical expertise.
+- Real-time Chat Interface: Engage with your VLLM in real time. Ask questions, get answers, and experiment with various queries.
+- Customizable Settings: Tailor the deployment according to your needs, including model parameters, performance tuning, and more.
+- Scalable Solutions: Whether you're running a small-scale model or handling large volumes of interactions, the platform can scale to meet your requirements.
+- User-Friendly Interface: With a clean, accessible layout, users of all experience levels can navigate the GUI and deploy their models with ease.
+- Comprehensive Feedback and Logs: Gain insights into the performance and behavior of your deployed models with detailed logs and feedback.
 
 ## Verified Environment:
 [Intel® Tiber™ AI Cloud](https://www.intel.com/content/www/us/en/developer/tools/devcloud/services.html)
 
-[Intel® Data Center GPU Max Series](https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/max-series.html)
 
 ### Environment Setup:
 The following information outlines the specifications used for this project:
