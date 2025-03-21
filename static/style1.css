@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+}
+
+.sidebar h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sidebar .form-group select,
+.sidebar .form-control {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Sidebar Buttons */
+.sidebar .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Main Content Styles */
+main {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #007bff;
+}
+
+/* Chat Box */
+.chat-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    height: 400px;
+    padding: 15px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+/* Message Input Form */
+#message-form {
+    display: flex;
+}
+
+#message-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+}
+
+#message-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+#message-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Button Hover Effects */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    main {
+        margin-left: 0;
+    }
+}

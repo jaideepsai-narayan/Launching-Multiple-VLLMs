@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+h4, h5 {
+    color: #007bff;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    min-height: 100vh;
+}
+
+.sidebar .form-group {
+    margin-bottom: 15px;
+}
+
+.sidebar .form-select {
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.sidebar h5 {
+    margin-top: 20px;
+}
+
+.sidebar input[type="text"] {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sidebar button {
+    margin-top: 10px;
+}
+
+.sidebar .btn-success,
+.sidebar .btn-danger {
+    width: 100%;
+}
+
+.sidebar .btn-primary {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Chat Box Styles */
+.chat-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chat-box div {
+    margin-bottom: 10px;
+}
+
+.chat-box strong {
+    color: #007bff;
+}
+
+/* Message Form Styles */
+#message-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#message-form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#message-form button {
+    width: 18%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .chat-box {
+        height: 300px;
+    }
+
+    #message-form input[type="text"] {
+        width: 70%;
+    }
+
+    #message-form button {
+        width: 25%;
+    }
+}
+
+@media (max-width: 576px) {
+    .chat-box {
+        height: 250px;
+    }
+
+    #message-form input[type="text"] {
+        width: 60%;
+    }
+
+    #message-form button {
+        width: 30%;
+    }
+}
