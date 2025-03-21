@@ -27,14 +27,14 @@ The following information outlines the specifications used for this project:
 ### Environment Setup
 
 ```bash
-docker build . -t vllm -f vllm_gaudi2
+cd Launching-Multiple-VLLMs
+docker build . -t vllm_gaudi2 -f Dockerfile
 docker run -it --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none--cap-add=sys_nice --net=host --ipc=host vllm_gaudi2
 pip install flask
 cd ..
 python3 new_app.py
 ```
-
-
+![image](https://github.com/user-attachments/assets/59aeb052-1f47-470c-b938-0cde71cdff3b)
 
 
 
