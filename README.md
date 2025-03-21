@@ -25,6 +25,7 @@ The following information outlines the specifications used for this project:
 
 
 ### Environment Setup
+Login to Huggingface cli, if you want to use Gated Repos
 
 ```bash
 cd Launching-Multiple-VLLMs
