@@ -13,7 +13,7 @@
 [Intel® Tiber™ AI Cloud](https://www.intel.com/content/www/us/en/developer/tools/devcloud/services.html)
 
 
-### Environment Setup:
+### Environment:
 The following information outlines the specifications used for this project:
 
 | Name      | Details                   |
