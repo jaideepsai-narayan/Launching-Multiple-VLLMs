@@ -27,9 +27,8 @@ The following information outlines the specifications used for this project:
 ### Environment Setup
 
 ```bash
-python3 -m venv vllama
-source vllama/bin/activate
-python -m ipykernel install --user --name vllama
+docker build . -t vllm -f vllm_gaudi2
+
 ```
 
 
