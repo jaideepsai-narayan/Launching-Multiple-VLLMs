@@ -50,7 +50,7 @@ def index():
     selected_model=initial_name
 
     # Pass the current chat history and models to the template
-    return render_template('index.html', 
+    return render_template('check.html', 
                            models=session['models'], 
                            selected_model=selected_model, 
                            chat_history=session['chat_history'])
@@ -93,7 +93,7 @@ def chat():
 
     session.modified = True
 
-    return render_template('index.html', 
+    return render_template('check.html', 
                            models=session['models'], 
                            selected_model=selected_model, 
                            chat_history=session['chat_history'], 
