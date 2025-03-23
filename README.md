@@ -30,7 +30,7 @@ Login to Huggingface cli, if you want to use Gated Repos
 ```bash
 cd Launching-Multiple-VLLMs
 docker build . -t vllm_gaudi2 -f Dockerfile
-docker run -it --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none--cap-add=sys_nice --net=host --ipc=host vllm_gaudi2
+docker run -it -v $PWD:/workspace --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none --cap-add=sys_nice --net=host --ipc=host vllm_gaudi2
 pip install flask
 cd ..
 python3 new_app.py
