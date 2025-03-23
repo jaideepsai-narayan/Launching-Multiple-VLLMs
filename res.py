@@ -3,7 +3,7 @@ import json
 import requests
 import time
 
-def out(model,message,port,max_tokens):
+def out(model,message,port,max_tokens,temp=0.1):
     # Set up the argument parser
     #parser = argparse.ArgumentParser(description="Chat with vLLM API.")
     #parser.add_argument('--max-tokens', type=int, default=100, help="The maximum number of tokens in the response.")
@@ -22,6 +22,7 @@ def out(model,message,port,max_tokens):
         "long-prefill-token-threshold": max_tokens,
         "max_tokens":max_tokens,
         #"min_tokens":args.max_tokens-1,
+        "temperature":temp
     }
     
     headers = {"Content-Type": "application/json"}
