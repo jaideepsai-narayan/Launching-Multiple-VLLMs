@@ -1,5 +1,5 @@
 # Launching-Multiple-VLLMs
-**Description:** Our interactive graphical user interface (GUI) simplifies the process of deploying and interacting with Virtual Large Language Models (VLLMs). This intuitive platform provides an easy way to set up, configure, and launch VLLMs, enabling users to communicate directly with the models in a seamless chat experience.
+**Description:** An interactive graphical user interface (GUI) simplifies the process of deploying and interacting with Virtual Large Language Models (VLLMs). This intuitive platform provides an easy way to set up, configure, and launch VLLMs, enabling users to communicate directly with the models in a seamless chat experience.
   
 **Key Features:**
 - Effortless Deployment: Deploy a VLLM in just a few clicks. No need for complex configurations or technical expertise.
