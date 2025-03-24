@@ -32,11 +32,14 @@ def para(model, start='b', end='-'):
     out = ''
     flag = 0
     for i in model[::-1]:
-        if i == "-" and flag == 1:
-            return math.ceil(float(out))
+        if i == end and flag == 1:
+            try:
+                return math.ceil(float(out))
+            except:
+                flag=0
         if flag == 1:
             out = i + out
-        if i.upper() == "B":
+        if i.upper() == start.upper():
             flag = 1 
     return 0
 
