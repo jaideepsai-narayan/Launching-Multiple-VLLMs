@@ -81,8 +81,12 @@ def chat():
     
     
     # Simulating a response (Replace with actual model interaction)
-    print("max_tokens: ", session['max_tokens'],session['temp'])
-    out_put = out(selected_model, user_message,used_models[initial_name],session['max_tokens'],session['temp'])
+    try:
+        print("max_tokens: ", session['max_tokens'],session['temp'])
+        out_put = out(selected_model, user_message,used_models[initial_name],session['max_tokens'],session['temp'])
+    except:
+        out_put = out(selected_model, user_message,used_models[initial_name],50,0.1)
+    
     # print(out_put)
     bot_message=out_put["choices"][0]["message"]["content"]
     # bot_message = out(selected_model, user_message,used_models[initial_name],256)
