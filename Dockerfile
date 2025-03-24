@@ -15,3 +15,5 @@ ENV PT_HPU_ENABLE_LAZY_COLLECTIVES=true
 
 RUN VLLM_TARGET_DEVICE=hpu python3 setup.py install
 
+RUN cd ..
+
