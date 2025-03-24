@@ -77,7 +77,7 @@ def chat():
     
     
     # Simulating a response (Replace with actual model interaction)
-    bot_message = out(selected_model, user_message,used_models[initial_name],256)["choices"][0]["message"]["content"]
+    bot_message = out(selected_model, user_message,used_models[initial_name],256,0.1)["choices"][0]["message"]["content"]
     # bot_message = out(selected_model, user_message,used_models[initial_name],256)
     
     # Store user and bot messages in session chat history
